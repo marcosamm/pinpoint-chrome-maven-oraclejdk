@@ -1,2 +1,2 @@
 # pinpoint-chrome-maven-oraclejdk
-Pinpoint Chrome Maven Oracle JDK Dockerfile
+Pinpoint Agent, Chrome, Maven and Oracle JDK Dockerfile
