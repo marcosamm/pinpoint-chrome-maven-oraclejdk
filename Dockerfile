@@ -25,4 +25,5 @@ RUN mkdir -p $PINPOINT_AGENT_HOME \
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /var/cache/apt/*
 
 ADD configure-agent.sh /usr/local/bin/
+RUN ["chmod", "+x", "/usr/local/bin/configure-agent.sh"]
 ENTRYPOINT ["/usr/local/bin/configure-agent.sh"]
