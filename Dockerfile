@@ -12,7 +12,7 @@
 #                       -e PROFILER_JSON_GSON="true" \
 #                       pinpoint-agent
 
-FROM persapiens/chrome-maven-oraclejdk:59-3.5.0-8u141
+FROM persapiens/chrome-maven-oraclejdk:58-3.5.0-8u131
 MAINTAINER Marcos Alexandre de Melo Medeiros <marcosamm@gmail.com>
 
 ENV PINPOINT_VERSION 1.7.0-SNAPSHOT
