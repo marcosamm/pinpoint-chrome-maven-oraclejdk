@@ -3,7 +3,7 @@
 # TO_RUN            docker run --name=pinpoint-agent pinpoint-agent
 # or
 # TO_RUN            docker run -it \
-#                       -e COLLECTOR_IP="198.162.0.18" \
+#                       -e COLLECTOR_IP="192.168.0.18" \
 #                       -e PROFILER_APPLICATIONSERVERTYPE="TOMCAT" \
 #                       -e PROFILER_TOMCAT_CONDITIONAL_TRANSFORM="false" \
 #                       -e PROFILER_SAMPLING_RATE="1" \
@@ -12,7 +12,7 @@
 #                       -e PROFILER_JSON_GSON="true" \
 #                       pinpoint-agent
 
-FROM persapiens/chrome-maven-oraclejdk:59-3.5.0-8u141
+FROM persapiens/chrome-maven-oraclejdk:60-3.5.0-8u144
 MAINTAINER Marcos Alexandre de Melo Medeiros <marcosamm@gmail.com>
 
 ENV PINPOINT_VERSION 1.6.2
